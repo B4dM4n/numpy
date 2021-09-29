@@ -142,7 +142,7 @@ class CountNonzero(Benchmark):
     params = [
         [1, 2, 3],
         [100, 10000, 1000000],
-        [bool, np.int8, np.int16, np.int32, np.int64, str, object]
+        [bool, int, str, object]
     ]
 
     def setup(self, numaxes, size, dtype):
